@@ -1,3 +1,4 @@
+
 def maxi(*l):
     if len(l) == 0:
         return 0
@@ -38,7 +39,6 @@ funciones = {
     'med': media
 }
          
-
 def returnF(nombre):
     nombre = nombre.lower()
     if nombre.lower() in funciones.keys():
